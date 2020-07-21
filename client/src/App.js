@@ -1,8 +1,13 @@
 import React from 'react';
+import Posts from "./components/Posts";
+import Postsform from "./components/Postsform";
 
 function App() {
   return (
-    <h1>Test</h1>
+    <>
+    <Postsform />
+    <Posts />
+    </>
   )
 }
 
